@@ -1,0 +1,122 @@
+body {
+    background-image: url("../images/background.png");
+    color: grey;
+    font-family: 'Trebuchet MS';
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-decoration: underline wavy;
+    border: 4px solid grey;
+}
+
+h1{
+
+}
+
+h2 {
+
+}
+
+.instructions {
+    clear:both;
+    position: relative;
+    margin-top: 20px;
+    color: white;
+    margin-left: 10%;
+
+}
+
+.amountBox {
+    width: 40%;
+    height: 150px;
+    float:left;
+     
+}
+    .scoreBox {
+        width: 15%;
+        margin-left: 20px;
+        float:left; 
+        border: 4px solid grey;
+        text-align: center;
+        color: white;
+    }
+
+        
+
+    .goalBox {
+        width: 15%;
+        margin-left: 11%;
+        float:left;
+        border: 4px solid grey;
+        text-align: center;
+        color: white;
+        
+    }
+    .displayGoal {
+        color:greenyellow;
+    }
+
+.gemBox {
+        
+        float:right;
+        width: 40%;
+        margin-right: 10%;
+
+}
+
+    .gemRed {
+        float:right;
+       
+        
+    }
+
+    .gemBlue {
+        float:right;
+
+    }
+
+    .gemGreen{
+        clear:both;
+        float:right;
+        
+    }
+
+    .gemYellow {
+        float:right;
+    }
+
+.winWrap {
+    clear:both;
+    width: 50%;
+    height: 150px;
+    float:left;
+    margin-left: 10%;
+
+}
+    .winsBox {
+        margin-left: 20px;
+        width: 30%;
+        float:left;   
+        text-align: center;
+        border: 4px solid grey;
+        color: white;
+
+    }
+    .displayWins {
+        color: greenyellow;
+
+    }
+    .lossesBox{
+        width: 30%;
+        float:left;
+        margin-left: 20px;
+        text-align: center;
+        border: 4px solid grey;
+        color: white;
+    }
+    .displayLosses {
+        color: red;
+    }

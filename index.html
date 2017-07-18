@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+
+<html lang = "en-us">
+
+    <head>
+
+        <title>
+            Random Crystal Madness
+
+        </title>
+    
+        <link rel="stylesheet" href="assets/css/style.css"> 
+    
+    </head>
+    
+    <body background="assets/images/background.png">
+
+        <header>
+
+            <h1 id="gameName">Random Crystal Madness!</h1>
+
+        </header>
+
+<!-- Instuctions Div -->
+        <div class="instructions">
+
+            <p> 
+                A random amount of crystals will appear at the start of the game.
+            </p>
+
+            <p> 
+                Click the four crystals below to add a specific amount to your score. Each crystal is worth a specific amount of gems. Be careful the amount is hidden!
+            </p>
+            
+            <p>
+                If you can get your score to match the random amount of gems, you win! But, if you go over, you lose...
+            </p>
+
+            <p> 
+                After each win or loss the goal amount and the amount each crystal adds will change!
+            </p>
+
+        </div>
+
+        <br>
+        
+        <hr>
+
+        <br>
+
+        <br>
+<!-- Score Div -->
+        <div class="ammountBox">
+            <div class="goalBox">
+
+                <h2>Goal Amount<h2>
+
+                <hr>
+                <!-- Display Score -->
+                <div class="displayGoal">00</div>
+            
+            </div>
+            <div class="scoreBox">
+
+                <h2>Your Score<h2>
+
+                <hr>
+                <!-- Display Score -->
+                <div class="displayScore">00</div>
+            
+            </div>
+        </div>
+<!-- Crystal Div -->
+        <div class="gemBox">
+
+        <!-- Four Buttons -->
+            <div class="gemRed">
+                <img class="red gem" src="assets/images/red.png" alt="REDGEM">
+            </div>
+
+            <div class="gemBlue">
+                <img class="blue gem" src="assets/images/blue.png" alt="BLUEGEM">
+            </div>
+
+             <div class="gemGreen" alt="GREENGEM">
+                <img class="green gem" src="assets/images/green.png">
+            </div>
+
+             <div class="gemYellow" alt="YELLOWGEM">
+                 <img class="yellow gem" src="assets/images/yellow.png">
+            </div>
+            
+        </div>
+    
+        
+        <!-- Wins/Losses Div -->
+       
+        <div class="winWrap"> 
+            <div class="winsBox">
+
+                <h2>Wins<h2>
+
+                <hr>
+                <!-- Display wins -->
+                <div class="displayWins">00</div>
+            
+            </div>
+
+            <div class="lossesBox">
+
+                <h2>Losses<h2>
+
+                <hr>
+                <!-- Display losses -->
+                <div class="displayLosses">00</div>
+            
+            </div>
+
+        </div>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <script src="assets/javascript/game.js"></script> 
+
+    </body>
+
+</html>
+
+      
+
+        
