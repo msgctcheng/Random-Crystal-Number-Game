@@ -6,7 +6,7 @@
 
 * App Preview GIF:
 
-![alt text](https://media.giphy.com/media/xT9IgL7ZShVYGtsq9W/giphy.gif)
+![alt text](https://media.giphy.com/media/26Ff1MBOuutw0UocU/giphy.gif)
 
 * On load a random number is assigned as the "Goal Amount" and each crystal is assigned a random number value.
 
